@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Schedule Maker</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+	</head>
+	<body>
+		<h2>Schedule Maker</h2>
+		<div id="top">
+		    <div id='container'>
+		    	<!-- types = http://www.w3schools.com/html/html5_form_input_types.asp
+		    	 value = http://www.w3schools.com/tags/att_input_value.asp
+		    	 name = http://www.w3schools.com/tags/att_input_name.asp
+		    	 EVERYTHING THAT IS SUBMITTED NEEDS NAME
+		    	 http://www.w3schools.com/tags/tag_input.asp
+		    	 Dynamic ids? How to do ids?
+
+
+
+		    	 -->
+    		    <form name="classform">
+    			    Course Name:</br>
+    			    <input type="text" name="coursename1"> </br>
+    			    <input type="radio" name="mandatory1" value="Yes">Mandatory Course</br>
+    			    <input type="radio" name="mandatory1" value="No">Not Mandatory</br>
+    			    Select Days of the Week:</br>
+        			    <input type="checkbox" name="days1" value="Monday">Monday</br>
+        			    <input type="checkbox" name="days1" value="Tuesday">Tuesday</br>
+        			    <input type="checkbox" name="days1" value="Wednesday">Wednesday</br>
+        			    <input type="checkbox" name="days1" value="Thursday">Thursday</br>
+        			    <input type="checkbox" name="days1" value="Friday">Friday</br>
+        			    <input type="checkbox" name="days1" value="Saturday">Saturday</br>
+        			    <input type="checkbox" name="days1" value="Sunday">Sunday</br>
+    			    Please input 15 minute intervals for the time field and indicate am or pm without a colon between the hour and minutes.</br>
+    			    Start Time:
+    			    <input type="text" name="startTime1" value="example: 100pm">
+    			    End Time:
+    			    <input type="text" name="endTime1" value="example: 1245pm">
+    			    <div id="time"></div>
+    			    <div id="addMoreTime">Add another time!</div>
+                    <div id="addCourse">Add Course!</div>
+        		</form>
+                <div id="createSchedule">Create Schedule!</div>
+    		</div>
+    	</div>
+    	<div id="border"></div>
+		<br/>
+		<div>
+		    <ul class = "list">
+		    </ul>
+		</div>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		
+	</body>
+</html>
